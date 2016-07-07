@@ -1,0 +1,46 @@
+body {
+  /*background-color: blue;*/
+  text-align: center;
+}
+.container{
+  text-align: center;
+  border: 4px solid black;
+  border-radius: 4%;
+  width: 300px;
+  position: absolute;
+}
+
+.getNewBalance {
+  background: #3cd934;
+  background-image: -webkit-linear-gradient(top, #3cd934, #36424a);
+  background-image: -moz-linear-gradient(top, #3cd934, #36424a);
+  background-image: -ms-linear-gradient(top, #3cd934, #36424a);
+  background-image: -o-linear-gradient(top, #3cd934, #36424a);
+  background-image: linear-gradient(to bottom, #3cd934, #36424a);
+  -webkit-border-radius: 51;
+  -moz-border-radius: 51;
+  border-radius: 51px;
+  font-family: Arial;
+  color: #f5f5f5;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.getNewBalance:hover {
+  background: #c4240f;
+  background-image: -webkit-linear-gradient(top, #c4240f, #131f26);
+  background-image: -moz-linear-gradient(top, #c4240f, #131f26);
+  background-image: -ms-linear-gradient(top, #c4240f, #131f26);
+  background-image: -o-linear-gradient(top, #c4240f, #131f26);
+  background-image: linear-gradient(to bottom, #c4240f, #131f26);
+  text-decoration: none;
+}
+p {
+  font-size: 25px;
+  font-style: italic;
+  /*margin-bottom: -15px;*/
+}
+form{
+  padding: 5px;
+}
